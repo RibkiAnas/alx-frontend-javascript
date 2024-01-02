@@ -1,0 +1,23 @@
+{
+	"name": "0x00-es6_basic",
+	"version": "1.0.0",
+	"description": "",
+	"scripts": {
+		"lint": "./node_modules/.bin/eslint",
+		"dev": "npx babel-node",
+		"test": "jest"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"@babel/cli": "^7.23.4",
+		"@babel/core": "^7.23.7",
+		"@babel/node": "^7.22.19",
+		"@babel/preset-env": "^7.23.7",
+		"eslint": "^8.56.0",
+		"eslint-config-airbnb-base": "^15.0.0",
+		"eslint-plugin-import": "^2.29.1",
+		"jest": "^29.7.0"
+	}
+}
