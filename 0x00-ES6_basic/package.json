@@ -3,9 +3,9 @@
 	"version": "1.0.0",
 	"description": "",
 	"scripts": {
-		"lint": "./node_modules/.bin/eslint",
 		"dev": "npx babel-node",
-		"test": "jest"
+		"test": "jest",
+		"lint": "./node_modules/.bin/eslint"
 	},
 	"keywords": [],
 	"author": "",
